@@ -1,0 +1,46 @@
+body{
+    background-color:gray;
+}
+.main-body{
+    width:1300px;
+    background-color:white;
+    padding:20px;
+    margin:20px auto auto auto;
+}
+
+@media (min-width:768px){
+    .main-body{
+        display:flex;
+        justify-content: space-between;        
+    }  
+}
+
+.child1 { 
+    background: forestgreen;
+    order:3;
+    flex-basis: 30%;
+    padding:10px;
+}
+.child2 { 
+    background: lightblue;
+    order:2;
+    flex-basis: 30%;
+    padding:10px;
+}
+.child3 { 
+    background: lightcoral;
+    order:1;
+    flex-basis: 30%;
+    padding:10px;
+}
+
+.text-main{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    margin: 30px auto auto;
+    background-color:yellow;
+}
+.text{
+  margin:auto;
+}
